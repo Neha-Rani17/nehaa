@@ -180,7 +180,7 @@ button:hover {
 .message.show {
     max-height: 2000px;
 
-    opacity: 0.5;
+    opacity: 1;
 
     margin-top: 30px;
 }
