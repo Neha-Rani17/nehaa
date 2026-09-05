@@ -10,7 +10,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y:auto;
 
     background: linear-gradient(
         135deg,
@@ -177,7 +178,7 @@ button:hover {
 /* Open message */
 
 .message.show {
-    max-height: 500px;
+    max-height: 2000px;
 
     opacity: 1;
 
